@@ -2,7 +2,7 @@
   "name": "test-github-collab",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
   "dependencies": {
     "@google-cloud/functions-framework": "^3.3.0",
     "@google-cloud/storage": "^7.9.0",
-    "csv": "^6.3.8"
+    "csv": "^6.3.8",
+    "dotenv": "^16.4.5"
   }
 }
